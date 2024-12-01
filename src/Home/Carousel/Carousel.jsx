@@ -1,13 +1,14 @@
 /** @format */
 
-import bildet from "../assets/Bildet2.jpg";
-import bildet2 from "../assets/bildet3.jpg";
-import bildet3 from "../assets/image.png";
+import image from "../../assets/image.png";
+import image2 from "../../assets/image2.jpg";
+import image3 from "../../assets/image3.jpg";
+import "./Carousel.css";
 
 export default function Carousel() {
   return (
     <>
-      <h1>WELCOME TO PIXNOTE</h1>
+      <h1 className="title">WELCOME TO PIXNOTE</h1>
 
       <div
         id="carouselExampleIndicators"
@@ -39,21 +40,21 @@ export default function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src={bildet}
+              src={image}
               className="d-block w-100 rounded"
               alt="First slide"
             />
           </div>
           <div className="carousel-item">
             <img
-              src={bildet2}
+              src={image2}
               className="d-block w-100 rounded"
               alt="Second slide"
             />
           </div>
           <div className="carousel-item">
             <img
-              src={bildet3}
+              src={image3}
               className="d-block w-100 rounded"
               alt="Third slide"
             />

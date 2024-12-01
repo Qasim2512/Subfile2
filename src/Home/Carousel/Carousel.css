@@ -1,5 +1,9 @@
 /** @format */
 
+.title {
+  margin-top: 1em;
+}
+
 @keyframes lights {
   0% {
     color: hsl(231, 89%, 49%);

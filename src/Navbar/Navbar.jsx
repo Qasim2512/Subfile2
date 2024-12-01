@@ -7,7 +7,9 @@ export default function Navbar() {
     <div className="navbarMain">
       <nav className="navbar navbar-expand-sm navbar-light box-shadow fixed-top py-3 bg-dark">
         <div className="container-fluid navbarMain">
-          <a className="navbar-brand text-light">PixNote</a>
+          <a className="navbar-brand text-light" href="/">
+            PixNote
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -25,19 +27,28 @@ export default function Navbar() {
                 <a
                   className="nav-link text-light pe-auto"
                   id="scrollViewButton"
+                  href="/"
                 >
                   Home
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link text-light" id="scrollViewButton">
+                <a
+                  className="nav-link text-light"
+                  id="scrollViewButton"
+                  href="/scrollView"
+                >
                   Scroll View
                 </a>
               </li>
 
               <li>
-                <a className="nav-link text-light" id="scrollViewButton">
+                <a
+                  className="nav-link text-light"
+                  id="scrollViewButton"
+                  href="/uploadImage"
+                >
                   Upload Image
                 </a>
               </li>

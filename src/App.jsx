@@ -1,20 +1,21 @@
 /** @format */
 
 import "./App.css";
-import Carousel from "./Carousel/Carousel";
-import Comment from "./HomeComments/Comment";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Home/Home";
+import ScrollView from "./ScrollView/ScrollView";
+import UploadImage from "./UploadImage/UploadImage";
 import Navbar from "./Navbar/Navbar";
 
 function App() {
   return (
     <div>
       <Navbar />
-
-      <Carousel />
-
-      <Comment />
-
-      <p>Use this page to detail your site's privacy policy.</p>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/scrollView" element={<ScrollView />} />
+        <Route path="/uploadImage" element={<UploadImage />} />
+      </Routes>
     </div>
   );
 }
