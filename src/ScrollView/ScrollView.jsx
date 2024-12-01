@@ -17,7 +17,10 @@ function ScrollView() {
       <div className="ScrollviewMain">
         <h2>PixNote: ScrollView</h2>
 
-        <a href="/Identity/Account/Login" className="btn btn-primary mt-4">
+        <a
+          /*href="/Identity/Account/Login"*/ href="/uploadImage"
+          className="btn btn-primary mt-4"
+        >
           Upload Image (Login required)
         </a>
 
