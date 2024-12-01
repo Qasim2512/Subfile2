@@ -1,11 +1,23 @@
 /** @format */
-
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./Navbar.css";
 import Cookies from "js-cookie";
 
 export default function Navbar() {
-  const isLoggedIn = Cookies.get("logginn");
+  const [isLoggedIn, setIsLoggedIn] = useState(Cookies.get("logginn"));
+
+  useEffect(() => {
+    const handleCookieChange = () => {
+      setIsLoggedIn(Cookies.get("logginn"));
+    };
+
+    const interval = setInterval(() => {
+      handleCookieChange();
+    }, 500);
+    return () => clearInterval(interval);
+  }, []);
+
+  console.log(isLoggedIn);
 
   return (
     <div className="navbarMain">
@@ -57,12 +69,15 @@ export default function Navbar() {
                 </a>
               </li>
 
-              {isLoggedIn ? (
+              {isLoggedIn === "sant" ? (
                 <li className="nav-item">
                   <a
                     className="btn btn-danger mx-2 logInBtn"
                     href="/logginn"
-                    onClick={() => Cookies.remove("logginn")}
+                    onClick={() => {
+                      Cookies.remove("logginn");
+                      setIsLoggedIn(null); // Force update state after logout
+                    }}
                   >
                     Logout
                   </a>

@@ -55,8 +55,3 @@ function Edit() {
 }
 
 export default Edit;
-
-/*
-todo update button fix with backend
-
-*/

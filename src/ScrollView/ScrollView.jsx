@@ -123,10 +123,3 @@ function ScrollView() {
 }
 
 export default ScrollView;
-
-/*    
-todo delete button with backend 
-send comment with backend
-    }
-    
-    */

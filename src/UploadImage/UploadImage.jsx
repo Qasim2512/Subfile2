@@ -7,12 +7,7 @@ function UploadImage() {
     <div className="UploadMain">
       <h2>Upload Image</h2>
 
-      <form
-        className="FormMain"
-        asp-action="Upload"
-        enctype="multipart/form-data"
-        method="post"
-      >
+      <form className="FormMain" enctype="multipart/form-data" method="post">
         <div className="form-group">
           <label for="title">Title:</label>
           <input type="text" name="title" className="form-control" required />
@@ -44,6 +39,3 @@ function UploadImage() {
 }
 
 export default UploadImage;
-
-/*todo upload to backend
- */
