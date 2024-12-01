@@ -1,70 +1,70 @@
 /** @format */
 
-import image from "../../assets/image.png";
-import image3 from "../../assets/image3.jpg";
-import image4 from "../../assets/image4.png";
 import "./Carousel.css";
+import React, { useEffect, useState } from "react";
 
 export default function Carousel() {
+  const [userData, setUserData] = useState([]);
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    fetch("http://jsonplaceholder.typicode.com/photos?_start=0&_limit=5")
+      .then((response) => response.json())
+      .then((data) => setUserData(data));
+  }, []);
+
+  const handleNext = () => {
+    setIndex((prevIndex) => (prevIndex + 1) % userData.length);
+  };
+
+  const handlePrev = () => {
+    setIndex((prevIndex) =>
+      prevIndex === 0 ? userData.length - 1 : prevIndex - 1
+    );
+  };
+
   return (
     <>
       <h1 className="title">WELCOME TO PIXNOTE</h1>
-
       <div
         id="carouselExampleIndicators"
         className="carousel slide"
         data-bs-ride="carousel"
       >
         <div className="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            className="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+          {userData.map((_, idx) => (
+            <button
+              key={idx}
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to={idx}
+              className={idx === index ? "active" : ""}
+              aria-current={idx === index ? "true" : "false"}
+              aria-label={`Slide ${idx + 1}`}
+              onClick={() => setIndex(idx)}
+            ></button>
+          ))}
         </div>
+
         <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              src={image}
-              className="d-block w-100 rounded"
-              alt="First slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src={image3}
-              className="d-block w-100 rounded"
-              alt="Second slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src={image4}
-              className="d-block w-100 rounded"
-              alt="Third slide"
-            />
-          </div>
+          {userData.map((data, idx) => (
+            <div
+              key={data.id}
+              className={`carousel-item ${idx === index ? "active" : ""}`}
+            >
+              <img
+                src={data.thumbnailUrl}
+                className="d-block w-100 rounded"
+                alt={`Slide ${idx + 1}`}
+              />
+            </div>
+          ))}
         </div>
+
         <button
           className="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
+          onClick={handlePrev}
         >
           <span
             className="carousel-control-prev-icon"
@@ -75,8 +75,7 @@ export default function Carousel() {
         <button
           className="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
+          onClick={handleNext}
         >
           <span
             className="carousel-control-next-icon"
@@ -88,12 +87,3 @@ export default function Carousel() {
     </>
   );
 }
-
-/*
-@if (hasImages/ingenbilder)
-  {  { else
-      <div className="col-md-12 text-center">
-        <h2>No images uploaded yet. Still in progress!</h2>
-      </div>
-  }
-      */
