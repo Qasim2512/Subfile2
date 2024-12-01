@@ -1,8 +1,12 @@
 /** @format */
 
+import { useEffect } from "react";
 import "./Navbar.css";
+import Cookies from "js-cookie";
 
 export default function Navbar() {
+  const isLoggedIn = Cookies.get("logginn");
+
   return (
     <div className="navbarMain">
       <nav className="navbar navbar-expand-sm navbar-light box-shadow fixed-top py-3 bg-dark">
@@ -53,16 +57,30 @@ export default function Navbar() {
                 </a>
               </li>
 
-              <li className="nav-item logInBtn">
-                <a className="btn btn-primary mt-2" href="/logginn">
-                  Login
-                </a>
-              </li>
-              <li className="nav-item registerBtn">
-                <a className="btn btn-success mt-2" href="/register">
-                  Register
-                </a>
-              </li>
+              {isLoggedIn ? (
+                <li className="nav-item">
+                  <a
+                    className="btn btn-danger mx-2 logInBtn"
+                    href="/logginn"
+                    onClick={() => Cookies.remove("logginn")}
+                  >
+                    Logout
+                  </a>
+                </li>
+              ) : (
+                <>
+                  <li className="nav-item logInBtn">
+                    <a className="btn btn-primary" href="/logginn">
+                      Login
+                    </a>
+                  </li>
+                  <li className="nav-item registerBtn">
+                    <a className="btn btn-success" href="/register">
+                      Register
+                    </a>
+                  </li>
+                </>
+              )}
             </ul>
           </div>
         </div>
@@ -70,60 +88,3 @@ export default function Navbar() {
     </div>
   );
 }
-
-/*
-
-
-                    <ul className="navbar-nav">
-                        @if (User.Identity.IsAuthenticated)
-                        {
-                            <li className="nav-item">
-                                <span className="text-light">Greetings, @User.Identity.Name</span>
-                                <a className="btn btn-danger mx-2" asp-area="Identity" asp-page="/Account/Logout">Logout</a>
-                            </li>
-                        }
-                        else
-                        {
-                            <li className="nav-item">
-                                <a className="btn btn-primary mt-2" asp-area="Identity" asp-page="/Account/Login">Login</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="btn btn-success mt-2" asp-area="Identity"
-                                    asp-page="/Account/Register">Register</a>
-                            </li>
-                        }
-                    </ul>
-    <div className="logOutContainer">
-        <main role="main" className="logout">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer className="border-top footer text-muted footerMain">
-        <div className="container">
-            &copy; 2024 - PixNote - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-
-    <script>
-        $(document).ready(function () {
-
-            var isAuthenticated = '@User.Identity.IsAuthenticated'.toLowerCase();
-
-            if (isAuthenticated === "false") {
-                $('#uploadImageButton').click(function (event) {
-                    event.preventDefault();
-                    alert("You must be logged in to upload an image.");
-                });
-            }
-        });
-    </script>
-
-    @await RenderSectionAsync("Scripts", required: false)
-
-*/

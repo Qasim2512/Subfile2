@@ -7,10 +7,11 @@ import ScrollView from "./ScrollView/ScrollView";
 import UploadImage from "./UploadImage/UploadImage";
 import Navbar from "./Navbar/Navbar";
 import Edit from "./Edit/Edit";
-import LoggInn from "./Logginn/LoggInn";
-import Register from "./Register/Register";
+import LoggInn from "./Account/Logginn/LoggInn";
+import Register from "./Account/Register/Register";
 import Footer from "./Privacy/Footer";
 import Privacy from "./Privacy/Privacy";
+import ForgotPassword from "./Account/ForgotPassword/ForgotPassword";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/edit" element={<Edit />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/forgotpassword" element={<ForgotPassword />} />
       </Routes>
 
       <Footer />
