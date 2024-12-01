@@ -26,8 +26,8 @@ function ScrollView() {
         <div className="scroll-container">
           {userData && (
             <div>
-              {userData.map((userData) => (
-                <div className="scroll-item image-card">
+              {userData.map((userData, key) => (
+                <div className="scroll-item" key={key}>
                   <h5>{userData.title}</h5>
                   <img
                     src={userData.thumbnailUrl}
@@ -60,7 +60,7 @@ function ScrollView() {
 
                   <div className="CommentsMain">
                     <b>Comments:</b>
-                    <div className="comment-section">
+                    <div className="Scrollview-comment-section">
                       <div className="comment">
                         <strong>@comment.User:</strong>
                         <p>@comment.CommentText</p>
@@ -89,10 +89,6 @@ function ScrollView() {
                           </button>
                         </form>
                       </div>
-                      <p>
-                        Please <a href="/Identity/Account/Login">login</a> to
-                        post a comment.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -109,6 +105,11 @@ export default ScrollView;
 
 /*    
 <p>You must be logged in to edit or delete an image.</p>
+
+                      <p>
+                        Please <a href="/Identity/Account/Login">login</a> to
+                        post a comment.
+                      </p>
 
 @if (User.Identity.IsAuthenticated)
     {

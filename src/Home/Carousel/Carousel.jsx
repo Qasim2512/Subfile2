@@ -1,8 +1,8 @@
 /** @format */
 
 import image from "../../assets/image.png";
-import image2 from "../../assets/image2.jpg";
 import image3 from "../../assets/image3.jpg";
+import image4 from "../../assets/image4.png";
 import "./Carousel.css";
 
 export default function Carousel() {
@@ -47,14 +47,14 @@ export default function Carousel() {
           </div>
           <div className="carousel-item">
             <img
-              src={image2}
+              src={image3}
               className="d-block w-100 rounded"
               alt="Second slide"
             />
           </div>
           <div className="carousel-item">
             <img
-              src={image3}
+              src={image4}
               className="d-block w-100 rounded"
               alt="Third slide"
             />
