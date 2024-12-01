@@ -46,7 +46,9 @@ function ScrollView() {
                   </div>
 
                   <div className="buttons">
-                    <a className="btn btn-success">Edit</a>
+                    <a className="btn btn-success" href="/edit">
+                      Edit
+                    </a>
 
                     <form method="post">
                       <input type="hidden" name="id" value="@image.ImageId" />

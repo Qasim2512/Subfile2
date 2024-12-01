@@ -6,6 +6,7 @@ import Home from "./Home/Home";
 import ScrollView from "./ScrollView/ScrollView";
 import UploadImage from "./UploadImage/UploadImage";
 import Navbar from "./Navbar/Navbar";
+import Edit from "./Edit/Edit";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/scrollView" element={<ScrollView />} />
         <Route path="/uploadImage" element={<UploadImage />} />
+        <Route path="/edit" element={<Edit />} />
       </Routes>
     </div>
   );
