@@ -108,3 +108,15 @@ button.accept-policy {
 #scrollViewButton {
   cursor: pointer;
 }
+
+.logInBtn {
+  position: absolute;
+  right: 1em;
+  bottom: 0.5em;
+}
+
+.registerBtn {
+  position: absolute;
+  right: 8em;
+  bottom: 0.5em;
+}

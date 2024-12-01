@@ -1,352 +1,148 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\css\\Edit.css",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\css\\Edit.css",
       "PackagePath": "staticwebassets\\css\\Edit.css"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\css\\Index.css",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\css\\Index.css",
       "PackagePath": "staticwebassets\\css\\Index.css"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\css\\ScrollView.css",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\css\\ScrollView.css",
       "PackagePath": "staticwebassets\\css\\ScrollView.css"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\css\\Upload.css",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\css\\Upload.css",
       "PackagePath": "staticwebassets\\css\\Upload.css"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\1726055541352.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\1726055541352.jpg",
       "PackagePath": "staticwebassets\\images\\1726055541352.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\2ab8868132adb942b50585228425c3e1.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\2ab8868132adb942b50585228425c3e1.jpg",
       "PackagePath": "staticwebassets\\images\\2ab8868132adb942b50585228425c3e1.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\320622174_1799105420489450_7295639576308042065_n.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\320622174_1799105420489450_7295639576308042065_n.jpg",
       "PackagePath": "staticwebassets\\images\\320622174_1799105420489450_7295639576308042065_n.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\3732572.webp",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\3732572.webp",
       "PackagePath": "staticwebassets\\images\\3732572.webp"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\6d36a24ba86063c5ea9c13b216e5d080.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\6d36a24ba86063c5ea9c13b216e5d080.jpg",
       "PackagePath": "staticwebassets\\images\\6d36a24ba86063c5ea9c13b216e5d080.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\Qasim.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\Qasim.jpg",
       "PackagePath": "staticwebassets\\images\\Qasim.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\Skjermbilde 2023-04-28 184827.png",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\Skjermbilde 2023-04-28 184827.png",
       "PackagePath": "staticwebassets\\images\\Skjermbilde 2023-04-28 184827.png"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\VID-20210902-WA0000.mp4",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\VID-20210902-WA0000.mp4",
       "PackagePath": "staticwebassets\\images\\VID-20210902-WA0000.mp4"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\a81228c8bb83244ed79a71c9a3bf12de.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\a81228c8bb83244ed79a71c9a3bf12de.jpg",
       "PackagePath": "staticwebassets\\images\\a81228c8bb83244ed79a71c9a3bf12de.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\berserk-red-moon-wallpaper-by-exoic-on-deviantart.png",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\berserk-red-moon-wallpaper-by-exoic-on-deviantart.png",
       "PackagePath": "staticwebassets\\images\\berserk-red-moon-wallpaper-by-exoic-on-deviantart.png"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\car.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\car.jpg",
       "PackagePath": "staticwebassets\\images\\car.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\chickenleg.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\chickenleg.jpg",
       "PackagePath": "staticwebassets\\images\\chickenleg.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\coke.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\coke.jpg",
       "PackagePath": "staticwebassets\\images\\coke.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\earth.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\earth.jpg",
       "PackagePath": "staticwebassets\\images\\earth.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\fishandchips.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\fishandchips.jpg",
       "PackagePath": "staticwebassets\\images\\fishandchips.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\frenchfries.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\frenchfries.jpg",
       "PackagePath": "staticwebassets\\images\\frenchfries.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\image1.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\image1.jpg",
       "PackagePath": "staticwebassets\\images\\image1.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\image2.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\image2.jpg",
       "PackagePath": "staticwebassets\\images\\image2.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\image3.png",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\image3.png",
       "PackagePath": "staticwebassets\\images\\image3.png"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\image44.png",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\image44.png",
       "PackagePath": "staticwebassets\\images\\image44.png"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\pizza.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\pizza.jpg",
       "PackagePath": "staticwebassets\\images\\pizza.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\ribs.jpg",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\ribs.jpg",
       "PackagePath": "staticwebassets\\images\\ribs.jpg"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\images\\static-assets-upload14788945298143420077.webp",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\images\\static-assets-upload14788945298143420077.webp",
       "PackagePath": "staticwebassets\\images\\static-assets-upload14788945298143420077.webp"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Id": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -52,6 +52,17 @@ export default function Navbar() {
                   Upload Image
                 </a>
               </li>
+
+              <li className="nav-item logInBtn">
+                <a className="btn btn-primary mt-2" href="/logginn">
+                  Login
+                </a>
+              </li>
+              <li className="nav-item registerBtn">
+                <a className="btn btn-success mt-2" href="/register">
+                  Register
+                </a>
+              </li>
             </ul>
           </div>
         </div>

@@ -7849,19 +7849,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\asopa\\.nuget\\packages\\": {}
+    "C:\\Users\\qasim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\backend.csproj",
+      "projectUniqueName": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\backend.csproj",
-      "packagesPath": "C:\\Users\\asopa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asopa\\Downloads\\Reacts\\Subfile2\\Backend\\obj\\",
+      "projectPath": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\backend.csproj",
+      "packagesPath": "C:\\Users\\qasim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\qasim\\OneDrive\\Desktop\\Subfile2\\Subfile2\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\asopa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\qasim\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
