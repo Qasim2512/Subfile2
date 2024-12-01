@@ -98,7 +98,7 @@ button.accept-policy {
 .scroll-item {
   flex: 0 0 auto;
   margin-right: 10px;
-  max-width: 300px;
+  max-width: 22em;
 }
 
 .image-card {

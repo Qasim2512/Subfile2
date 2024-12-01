@@ -47,15 +47,7 @@ function ScrollView() {
                   />
 
                   <div className="py-4">
-                    <p>@image.Description</p>
-                    <small>
-                      (Uploaded on: @image.DateUploaded.ToString("g"))
-                    </small>
-                    <br />
-
-                    <small>
-                      Uploaded by: @Model.ImageUploaderNames[image.ImageId]
-                    </small>
+                    <p>{userData.title}</p>
                   </div>
 
                   {isLoggedIn ? (
