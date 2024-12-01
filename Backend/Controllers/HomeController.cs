@@ -17,6 +17,7 @@ public class HomeController : Controller
         _imagePath = Path.Combine(env.WebRootPath, "images"); // Correct path
     }
 
+    [HttpGet]
     public IActionResult Index()
     {
         // Check if the images directory exists and has files
