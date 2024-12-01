@@ -17,26 +17,24 @@ function Register() {
 
   function handleRegister() {
     if (email.trim().length === 0) {
-      setEmailError("Skriv inn en email ");
+      setEmailError("Write email");
       return;
     } else {
       setEmailError("");
     }
 
     if (password.trim().length === 0) {
-      setPasswordError("Alle nettsider har passord, hva er ditt?");
+      setPasswordError("Write password?");
       return;
     } else {
       setPasswordError("");
     }
 
     if (passwordConfirm.trim().length === 0) {
-      setPasswordConfirmError("Alle nettsider har passord, hva er ditt?");
+      setPasswordConfirmError("Write password?");
       return;
     } else if (password.trim() !== passwordConfirm.trim()) {
-      setPasswordConfirmError(
-        "Næmen, her var du litt rask. Dine passord stemmer ikke overens. "
-      );
+      setPasswordConfirmError("The password is not the same ");
       return;
     } else {
       setPasswordConfirmError("");
@@ -71,6 +69,7 @@ function Register() {
             aria-required="true"
             placeholder="password"
             value={password}
+            type="password"
             onChange={(e) => setPassword(e.target.value)}
           />
           <label>Password</label>
@@ -82,6 +81,7 @@ function Register() {
             autocomplete="new-password"
             aria-required="true"
             placeholder="password"
+            type="password"
             value={passwordConfirm}
             onChange={(e) => setPasswordConfirm(e.target.value)}
           />

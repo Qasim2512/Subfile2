@@ -29,7 +29,7 @@ function Edit() {
               <input
                 className="form-control"
                 defaultValue={location.state.data.title}
-              ></input>
+              />
               <span className="text-danger"></span>
             </div>
             <div className="form-group">

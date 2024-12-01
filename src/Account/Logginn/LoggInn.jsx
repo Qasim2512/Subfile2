@@ -15,14 +15,14 @@ function LoggInn() {
 
   function handleLoggInn() {
     if (email.trim().length === 0) {
-      setEmailError("Skriv inn en email ");
+      setEmailError("Write email");
       return;
     } else {
       setEmailError("");
     }
 
     if (password.trim().length === 0) {
-      setPasswordError("Alle nettsider har passord, hva er ditt?");
+      setPasswordError("Write password?");
       return;
     } else {
       setPasswordError("");
@@ -58,6 +58,7 @@ function LoggInn() {
                 autocomplete="current-password"
                 aria-required="true"
                 placeholder="password"
+                type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
