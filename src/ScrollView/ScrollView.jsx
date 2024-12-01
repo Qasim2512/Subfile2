@@ -12,8 +12,6 @@ function ScrollView() {
       .then((data) => setUserData(data));
   }, []);
 
-  console.log(userData);
-
   return (
     <>
       <div className="ScrollviewMain">
